@@ -11,9 +11,8 @@ int main() {
     }
 
     //proses balik Array
-
     printf("\nReversed Array: ");
-    for (int i = 0; i < size; i++) {
+    for (int i = size-1; i >= 0; i--) {
         printf("%d ", arr[i]);
     }
 
